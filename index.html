@@ -1,33 +1,54 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Antares</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="assets/alt.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Antares</title>
 </head>
+
 <body>
-
     <main>
+        <div class="main">
+            <div class="card">
+                <div class="left">
+                    <form action="pages.html">
+                        <h1>Login Antares </h1>
+                     
 
-        <form action="pages.html">
+                </div>
 
-            <h1>Log in to Antares</h1>
 
-            <div class="textfield">
-                <i class="bi bi-person-circle"></i>
-                <input type="text" placeholder="Usuário" required>
+                <div class="textfield">
+                    <i class="bi bi-person"></i>
+                    <input type="text" placeholder="Insira seu usúario" required>
+
+                </div>
+                <br>
+
+                <div class="textfield">
+                    <i class="bi bi-key"></i>
+                    <input type="password" placeholder="Insira sua senha" required>
+
+                </div>
+                <br>
+
+                <button type="submit" class="btn-login">Login</button>
+                <!-- <input type="submit" value="Log-in" class="btn-login"></input>   -->
+
+
+
+
+
+                </form>
             </div>
-
-            <div class="textfield">
-                <i class="bi bi-key-fill"></i>
-                <input type="password" placeholder="Senha" required>
-            </div>
-
-            <button type="submit" class="btn-login">Log in</button>
-        </form>
+        </div>
     </main>
-    
+
 </body>
+
 </html>
