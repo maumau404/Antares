@@ -133,3 +133,16 @@ left: 240px;
 position: relative;
 width: calc(100%-240px);
 }
+
+.form-floating label{
+    left: 7px;
+}
+
+#btn-salvar{
+
+    background: rgb(73, 72, 72);
+    border: none;
+    height: 48px;
+    width: 128px;
+    border-radius: 10px;
+}
